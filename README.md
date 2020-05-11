@@ -9,10 +9,19 @@ Twitter アカウント<br>
 
 ## GitHub Pages
 
-[Preview Page](https://pome-ta.github.io/mama-oji/index)
+[サイトプレビュー](https://pome-ta.github.io/mama-oji/index)
 
 
 ## LOG
+
+> 2020/05/12
+
+- スマホView 対応着手によりファイル分割
+  - `common.css` : 全体設定
+  - `mobile.css` : スマホから iPad 縦まで
+  - `browser.css` : PC 用
+
+
 > 2020/05/11
 
 - リポジトリ作成
