@@ -1,1 +1,6 @@
 @charset "utf-8";
+
+.navigation {
+  height: 100vh;
+  background: #eee;
+}
