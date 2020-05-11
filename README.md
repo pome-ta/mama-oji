@@ -7,12 +7,18 @@ Twitter アカウント<br>
 
 応援リポジトリ
 
+## GitHub Pages
 
+[preview page](https://pome-ta.github.io/mama-oji/index)
+
+
+## LOG
 > 2020/05/11
 
 - リポジトリ作成
 - CSS リセットを `bootstrap-reboot` に
 - CSS デバック設置
+- GitHub Pages 設置
 
 
 ## CSS リセット
