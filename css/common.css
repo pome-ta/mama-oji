@@ -19,6 +19,33 @@ h1, h2, h3, h4, p, li, a, span {
   font-feature-settings: "palt";
 }
 
+/* 検証用 */
+
+body {
+  background: dimgray;
+}
+.navigation {
+  background: yellowgreen;
+}
+
+.intro {
+  background: moccasin;
+}
+
+.episode {
+  background: salmon;
+}
+
+.chracter {
+  background: skyblue;
+}
+
+
+@media screen and (min-width: 768px) and (orientation: portrait) {
+  /* スマホからipad 縦まで */
+  
+
+}
 
 /*
  * Grid layout
@@ -56,26 +83,7 @@ body {
 }
 
 
-/* 検証用 */
 
-body {
-  background: dimgray;
-}
-.navigation {
-  background: yellowgreen;
-}
-
-.intro {
-  background: moccasin;
-}
-
-.episode {
-  background: salmon;
-}
-
-.chracter {
-  background: skyblue;
-}
 
 /*
  * section 内調整
