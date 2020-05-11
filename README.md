@@ -58,16 +58,16 @@ typo があるので自分で書き換えをしてます
 * * * * * * * * * {background-color：rgba(0,0,255、.2)}
 ```
 
-### 修正版コード(`:` の半角修正)
+### 修正版コード
 
 ``` fix.css
-* {background-color: rgba(255,0,0, .2)}
-* * {background-color: rgba(0,255,0、.2)}
-* * * {background-color: rgba(0,0,255、.2)}
-* * * * {background-color: rgba(255,0,255、.2)}
-* * * * * {background-color: rgba(0,255,255、.2)}
-* * * * * * {background-color: rgba(255,255,0、.2)}
-* * * * * * * {background-color: rgba(255,0,0、.2)}
-* * * * * * * * {background-color: rgba(0,255,0、.2)}
-* * * * * * * * * {background-color: rgba(0,0,255、.2)}
+* {background-color: rgba(255,0,0,.2)}
+* * {background-color: rgba(0,255,0,.2)}
+* * * {background-color: rgba(0,0,255,.2)}
+* * * * {background-color: rgba(255,0,255,.2)}
+* * * * * {background-color: rgba(0,255,255,.2)}
+* * * * * * {background-color: rgba(255,255,0,.2)}
+* * * * * * * {background-color: rgba(255,0,0,.2)}
+* * * * * * * * {background-color: rgba(0,255,0,.2)}
+* * * * * * * * * {background-color: rgba(0,0,255,.2)}
 ```
