@@ -37,12 +37,17 @@ Twitter アカウント<br>
 - [CSSで実装したレイアウトの構造や階層を簡単に確認できる、私のお気に入りのCSSハック -My favorite CSS hack](https://coliss.com/articles/build-websites/operation/css/my-favorite-css-hack-by-gajus.html)
 
 
-なお、記事掲載のコードは、`:` が全角になっているtypo があるので書き換えてます
+なお、記事掲載のコードは、
+
+- `:` が全角になっている
+- `,` が `、` となっている
+
+typo があるので自分で書き換えをしてます
 
 ### 間違ったコード(サイトに掲示されているもの)
 
 ``` mistake.css
- {background-color: rgba(255,0,0,.2)}
+* {background-color: rgba(255,0,0,.2)}
 * * {background-color：rgba(0,255,0、.2)}
 * * * {background-color：rgba(0,0,255、.2)}
 * * * * {background-color：rgba(255,0,255、.2)}
