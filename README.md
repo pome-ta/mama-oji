@@ -79,6 +79,36 @@ typo があるので自分で書き換えをしてます
 ```
 
 
+## Grid Layout
+
+サイトの外観調整は、GridLayout を使用(ブラウザ表示時)
+
+
+### 参考サイト
+
+- [これで分かった！10分でほとんど理解できる「CSSグリッド」の基礎](https://ferret-plus.com/8351)
+- [CSS Grid Layout入門 対応ブラウザが出揃った新しいレイアウト仕様](https://ics.media/entry/15649/)
+
+## Flex Layout
+
+各コンテンツ内のレイアウト調整は、FlexBox を想定
+
+### 参考サイト
+
+- [日本語対応！CSS Flexboxのチートシートを作ったので配布します](https://www.webcreatorbox.com/tech/css-flexbox-cheat-sheet)
+  - サイト内の設定でダークモードにすると、画像の説明がクッソ見辛いから注意
+- [CSS Flexbox の基礎知識と使い方をやさしく解説](https://coliss.com/articles/build-websites/operation/css/css3-flexbox-properties-by-scotch.html)
+
+
+## SP 表示
+
+ディスプレイサイズを検知し、レスポンシブなレイアウトに調整
+
+
+
+
+
+
 ## 画像
 
 
@@ -86,3 +116,6 @@ typo があるので自分で書き換えをしてます
 
 
 ぬこ
+
+
+サンプル画像として使う予定
