@@ -9,7 +9,7 @@ Twitter アカウント<br>
 
 ## GitHub Pages
 
-[preview page](https://pome-ta.github.io/mama-oji/index)
+[Preview Page](https://pome-ta.github.io/mama-oji/index)
 
 
 ## LOG
@@ -21,10 +21,24 @@ Twitter アカウント<br>
 - GitHub Pages 設置
 
 
+
+## HTML タグ
+
+全然気にしなくて大丈夫
+
+わからなかったら、全部`div` にして、`class="hoge"` で逃げれば問題なし
+
+
 ## CSS リセット
 
-
 絶対に必要という訳ではないです。私は、Reboot で慣れてしまったので、毎回入れてます。
+
+### リセット or ノーマライズ
+
+時代により、使われるものが色々とトレンドとして変わってくる可能性があるです。
+
+
+気になるのであれば、以下の参考サイトで確認できると思います。
 
 
 ### 参考記事
@@ -96,7 +110,7 @@ typo があるので自分で書き換えをしてます
 ### 参考サイト
 
 - [日本語対応！CSS Flexboxのチートシートを作ったので配布します](https://www.webcreatorbox.com/tech/css-flexbox-cheat-sheet)
-  - サイト内の設定でダークモードにすると、画像の説明がクッソ見辛いから注意
+  - サイト内の設定でダークモードにすると、画像の説明がクッソ見辛いから OFFに
 - [CSS Flexbox の基礎知識と使い方をやさしく解説](https://coliss.com/articles/build-websites/operation/css/css3-flexbox-properties-by-scotch.html)
 
 

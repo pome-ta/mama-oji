@@ -76,3 +76,23 @@ body {
 .chracter {
   background: skyblue;
 }
+
+/*
+ * section 内調整
+ */
+section {
+  padding: 1rem;
+}
+
+ section h2 {
+   display: inline-block;
+   color: #fff;
+   font-weight: bold;
+   background: springgreen;
+   padding: .8rem 2rem;
+ }
+
+ section span {
+   display: block;
+   font-size: 2rem;
+ }
