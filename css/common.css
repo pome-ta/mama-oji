@@ -5,7 +5,7 @@
 
 /*
  * 日本語綺麗に見せる用
-*/
+ */
 body {
   font-family: "Helvetica Neue",
     Arial,
@@ -28,7 +28,7 @@ body {
   background: dimgray;
 }
 .navigation {
-  background: yellowgreen;
+  background: aquamarine;
 }
 
 .intro {
@@ -52,26 +52,50 @@ body {
   height: 100vh;
 }
 
+/*
+ * .container 内調整
+ */
+
+
+.container {
+  width: 100%;
+}
+
+.navigation {
+  width: 100%;
+}
+
+nav, section {
+  width: 100%;
+  padding: 1rem;
+}
+
+
+/*
+ * nav 内調整
+ */
+.title-wrap {
+  background: springgreen;
+}
+
+
 
 /*
  * section 内調整
  */
-section {
-  padding: 1rem;
+
+section h2 {
+  display: inline-block;
+  color: #eee;
+  font-weight: bold;
+  background: springgreen;
+  padding: .8rem 2rem;
 }
 
- section h2 {
-   display: inline-block;
-   color: #eee;
-   font-weight: bold;
-   background: springgreen;
-   padding: .8rem 2rem;
- }
-
- section span {
-   display: block;
-   font-size: 2rem;
- }
+section span {
+  display: block;
+  font-size: 2rem;
+}
 
 
 

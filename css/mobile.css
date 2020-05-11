@@ -2,5 +2,10 @@
 
 .navigation {
   height: 100vh;
-  background: #eee;
+}
+
+
+nav h1 {
+  font-size: 5.2vw;
+  
 }
