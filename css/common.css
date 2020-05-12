@@ -71,9 +71,17 @@ nav, section {
 }
 
 
+nav ul li, section h2 {
+  color: #eee;
+  font-weight: bold;
+  background: springgreen;
+  width: 8rem;
+  height: 4rem;
+}
 /*
  * nav 内調整
  */
+
 .title-wrap {
   background: springgreen;
   text-align: center;
@@ -85,25 +93,38 @@ nav, section {
   font-weight: bold;
 }
 
-nav ul li {
-  list-style: none;
+
+
+.navigation ul {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-nav ul li a {
+nav li {
+  list-style: none;
+  margin: .8rem 0;
+  text-align: center;
+
+
+}
+
+nav a {
   text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 1.28rem 0;
 }
 
 /*
  * section 内調整
  */
 
-section h2 {
-  display: inline-block;
-  color: #eee;
-  font-weight: bold;
-  background: springgreen;
-  padding: .8rem 2rem;
-}
+
+
 
 section span {
   display: block;
