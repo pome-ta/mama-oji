@@ -76,9 +76,22 @@ nav, section {
  */
 .title-wrap {
   background: springgreen;
+  text-align: center;
+  padding: 2.4rem 0;
+  color: #eee;
 }
 
+.title-wrap h1 {
+  font-weight: bold;
+}
 
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
 
 /*
  * section 内調整

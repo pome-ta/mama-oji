@@ -5,7 +5,11 @@
 }
 
 
-nav h1 {
-  font-size: 5.2vw;
-  
+.title-wrap h1 {
+  font-size: 6.4vw;
+
+}
+
+.title-wrap span {
+  font-size: 4.8vw;
 }
