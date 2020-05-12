@@ -55,18 +55,18 @@ nav, section {
 
 .title-wrap {
   text-align: center;
-  padding: 4rem 0 3rem 0;
+  padding: 2rem 0 1rem 0;
 
 }
 
 .title-wrap h1 {
   font-weight: bold;
   transform: scale(1, 2);
-  padding: 2rem 0;
+  padding: .4rem 0;
 }
 
 .title-wrap span {
-  padding: 2rem;
+  padding: 1rem;
 }
 
 
@@ -75,7 +75,6 @@ nav, section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* gap: 1rerm; */
 }
 
 nav li {
