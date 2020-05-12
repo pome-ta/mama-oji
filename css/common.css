@@ -70,27 +70,30 @@ nav, section {
   padding: 1rem;
 }
 
-
-nav ul li, section h2 {
+.text-panel {
   color: #eee;
   font-weight: bold;
   background: springgreen;
+}
+/*
+nav ul li, section h2 {
+  
   width: 8rem;
   height: 4rem;
-}
+}*/
 /*
  * nav 内調整
  */
 
 .title-wrap {
-  background: springgreen;
   text-align: center;
   padding: 2.4rem 0;
-  color: #eee;
+  
 }
 
 .title-wrap h1 {
   font-weight: bold;
+  transform: scale(1, 1.8);
 }
 
 
@@ -105,14 +108,17 @@ nav ul li, section h2 {
 
 nav li {
   list-style: none;
-  margin: .4rem 0;
+  width: 33.3%;
+  margin: .4rem 0 0;
   text-align: center;
 
 
 }
 
 nav a {
-  text-decoration: none;
+  /*text-decoration: none;*/
+  font-weight: bold;
+  color: #eee;
   display: block;
   width: 100%;
   height: 100%;
