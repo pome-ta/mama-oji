@@ -21,29 +21,6 @@ h1, h2, h3, h4, p, li, a, span {
   font-weight: normal;
   font-feature-settings: "palt";
 }
-
-/* 検証用 */
-
-body {
-  background: dimgray;
-}
-.navigation {
-  background: aquamarine;
-}
-
-.intro {
-  background: moccasin;
-}
-
-.episode {
-  background: salmon;
-}
-
-.chracter {
-  background: skyblue;
-}
-
-
 /*
  * common layout
  */
@@ -129,4 +106,51 @@ section span {
 }
 
 
+
+
+/* 検証用 & 画像設置用 */
+
+body {
+  background: dimgray;
+}
+.navigation {
+  background: url(../img/nav_adorable-angry-animal-animal-portrait-208984.jpg);
+}
+
+.navigation::before {
+  content: '';
+  position: absolute;
+  background: inherit;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: hue-rotate(72deg);
+}
+
+
+  /* filter: hue-rotate(90deg); */
+
+
+
+
+.intro {
+  background: moccasin;
+}
+
+.episode {
+  background: salmon;
+}
+
+.chracter {
+  background: skyblue;
+}
+
+.set-img {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
 
